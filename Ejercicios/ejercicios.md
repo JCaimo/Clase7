@@ -1,0 +1,23 @@
+- Crear un usuario con un grupo primario específico
+- Crear un usuario con directorio home personalizado
+- Agregar un usuario a múltiples grupos secundarios
+- Modificar el directorio home de un usuario
+- Eliminar un usuario y su directorio home
+- Forzar a un usuario a cambiar su contraseña en el próximo inicio de sesión
+- Configurar la expiración de la contraseña de un usuario para que expire en 30 días
+- Crea un usuario llamado usuario_avanzado con las siguientes características:
+-- Grupo primario desarrollo
+-- Directorio home /home/usuario_avanzado
+-- Fecha de expiración de cuenta 2025-01-01
+-- Shell /bin/zsh
+-- UID 1050
+-- Miembro de los grupos secundarios docker y ansible
+- Migración de un usuario a un nuevo UID y grupo llamado operaciones
+- Configura el sistema para que todas las contraseñas deben:
+-- Tener al menos 12 caracteres
+-- Incluir al menos una letra mayúscula, una minúscula, un número y un carácter especial
+-- Ser cambiadas cada 90 días
+- Escribe un script que audite todas las cuentas de usuario y reporte:
+-- Usuarios sin contraseña
+-- Contraseñas que no cumplen con la política de expiración
+-- Usuarios que no han cambiado su contraseña en el último año
