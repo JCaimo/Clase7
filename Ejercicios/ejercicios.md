@@ -17,7 +17,3 @@
 -- Tener al menos 12 caracteres
 -- Incluir al menos una letra mayúscula, una minúscula, un número y un carácter especial
 -- Ser cambiadas cada 90 días
-- Escribe un script que audite todas las cuentas de usuario y reporte:
--- Usuarios sin contraseña
--- Contraseñas que no cumplen con la política de expiración
--- Usuarios que no han cambiado su contraseña en el último año
